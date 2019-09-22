@@ -10,7 +10,7 @@ Machine Learning for packet analytics of encrypted network traffic
 
        [sudo] apt-get update
       
-       [sudo] apt-get install gcc git libcurl3 libcurl4-openssl-dev libpcap0.8 libpcap-dev libssl-dev make python python pip ruby ruby-ffi libz-dev
+       [sudo] apt-get install gcc git libcurl3 libcurl4-openssl-dev libpcap0.8 libpcap-dev libssl-dev make python python-pip ruby ruby-ffi libz-dev
       
 2. Download Joy:
     
