@@ -23,7 +23,7 @@ Machine Learning for packet analytics of encrypted network traffic
        
 4.  Build:
       
-        make clean; clean
+        make clean; make
 
 5.  Installation:
   
