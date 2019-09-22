@@ -32,9 +32,8 @@ Machine Learning for packet analytics of encrypted network traffic
 To run offline:
   
     bin/joy [option] filename
-    e.g. bin/jpy bidir=1 output=data.json packet_dhcp.pcap
+    e.g. bin/joy bidir=1 http=1 dns=1 tls=1 dist=1  data.pcap > data.json
 
-6.
        
        
 
