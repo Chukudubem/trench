@@ -27,7 +27,7 @@ Machine Learning for packet analytics of encrypted network traffic
 
 5.  Installation:
   
-        sudo ./install-joy/install-sh
+        sudo ./install_joy/install-sh
         
 To run offline:
   
