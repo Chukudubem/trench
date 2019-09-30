@@ -16,7 +16,7 @@ class DataProcessor:
     def __init__(self, file):
         self.contents = []
 
-        with gzip.open(file, 'r', encoding='cp1252') as f:
+        with gzip.open(file, 'rt') as f:
             next(f)
             try:
                 for line in f:
