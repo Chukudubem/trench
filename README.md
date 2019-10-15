@@ -5,15 +5,24 @@
 # Machine Learning for Encrypted Network Packet Analysis
 
 ### Introduction
-<pre> Over the years, well-meaning stakeholders have strived to build trust into the internetwork of computers that we call the "web". In the last two years, however, a changing climate of mistrust has begun to grow and it is no surprise it correlates with the exponential growth of data. 
+<pre> 
+Over the years, well-meaning stakeholders have strived to build trust into the internetwork of computers that we call the "web". 
+In the last two years, however, a changing climate of mistrust has begun to grow and it is no surprise it correlates with the exponential growth of data. 
 
 As more and more encryption is leveraged to protect communication and resources in the ever busy ebb and flow that is the web, there is a rising threat hidden in the shadows of TLS traffic - <bold>encrypted malware</bold>.
 
-More effective mitigation techniques, such as packet sniffing (break and inspect) require a packet be "way-layed", decrypted, and the content, assessed for malicious content, before re-encrypting and sending it off on its way (if found to be benign). This solution, will necessary, poses a threat to the very trust that we strive to uphold. In addition to these privacy concerns is the latency and extra overhead introduced to the network - which in huge enterprise settings could lead to significant time and resource loss running into thousands (sometimes millions of dollars).
+More effective mitigation techniques, such as packet sniffing (break and inspect) require a packet be "way-layed", decrypted, and the content, assessed for malicious content, before re-encrypting and sending it off on its way (if found to be benign). 
+This solution, will necessary, poses a threat to the very trust that we strive to uphold. 
+In addition to these privacy concerns is the latency and extra overhead introduced to the network - which in huge enterprise settings could lead to significant time and resource loss running into thousands (sometimes millions of dollars).
 
 <bold>The Proposal</bold> - What if privacy and safety are not mutually exclusive and we can provide network administrators, security engineers, and end users, security while upholding trust and privacy?
 </pre>
-### Tools
+### Provenance
+Trench is a POC threat intelligence tool that uses machine learning to analyse encrypted network traffic for maliciious activity without the need to decrypt packets. 
+
+This project was largely influenced by a [Cisco research](https://resources.sei.cmu.edu/asset_files/Presentation/2016_017_001_450411.pdf) from 2016. As a Data Scientist with Network Security background and a knack for seeking out "impossible" challenges (especially as it relates to the excitingly blossoming field of security Machine Learning and Privacy Engineering), I was naturally drawn to this problem.
+
+I trained multiple packet capture files (about 20GB) sourced from [Canadian Institute of Cybersecurity, UNB](https://www.unb.ca/cic/datasets/ids-2017.html) to build my model.
 ### Dependencies
 
 ### Dependencies
