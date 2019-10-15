@@ -2,10 +2,17 @@
 
 ![Trench](trench.png)
 <pre>Author: Dubem Nwoji</pre>
-<pre>Machine Learning for Encrypted Network Packet Analysis</pre>
+# Machine Learning for Encrypted Network Packet Analysis
 
 ### Introduction
+<pre> Over the years, well-meaning stakeholders have strived to build trust into the internetwork of computers that we call the "web". In the last two years, however, a changing climate of mistrust has begun to grow and it is no surprise it correlates with the exponential growth of data. 
 
+As more and more encryption is leveraged to protect communication and resources in the ever busy ebb and flow that is the web, there is a rising threat hidden in the shadows of TLS traffic - <bold>encrypted malware</bold>.
+
+More effective mitigation techniques, such as packet sniffing (break and inspect) require a packet be "way-layed", decrypted, and the content, assessed for malicious content, before re-encrypting and sending it off on its way (if found to be benign). This solution, will necessary, poses a threat to the very trust that we strive to uphold. In addition to these privacy concerns is the latency and extra overhead introduced to the network - which in huge enterprise settings could lead to significant time and resource loss running into thousands (sometimes millions of dollars).
+
+<bold>The Proposal</bold> - What if privacy and safety are not mutually exclusive and we can provide network administrators, security engineers, and end users, security while upholding trust and privacy?
+</pre>
 ### Tools
 ### Dependencies
 
