@@ -1,8 +1,8 @@
 
 
 ![Trench](trench.png)
-####Author: Dubem Nwoji
-### Machine Learning for Encrypted Network Packet Analysis
+<pre>Author: Dubem Nwoji</pre>
+<pre>Machine Learning for Encrypted Network Packet Analysis</pre>
 
 ### Introduction
 
