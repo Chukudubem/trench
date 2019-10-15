@@ -18,11 +18,14 @@ In addition to these privacy concerns is the latency and extra overhead introduc
 <bold>The Proposal</bold> - What if privacy and safety are not mutually exclusive and we can provide network administrators, security engineers, and end users, security while upholding trust and privacy?
 </pre>
 ### Provenance
+<pre>
 Trench is a POC threat intelligence tool that uses machine learning to analyse encrypted network traffic for maliciious activity without the need to decrypt packets. 
 
 This project was largely influenced by a [Cisco research](https://resources.sei.cmu.edu/asset_files/Presentation/2016_017_001_450411.pdf) from 2016. As a Data Scientist with Network Security background and a knack for seeking out "impossible" challenges (especially as it relates to the excitingly blossoming field of security Machine Learning and Privacy Engineering), I was naturally drawn to this problem.
 
 I trained multiple packet capture files (about 20GB) sourced from [Canadian Institute of Cybersecurity, UNB](https://www.unb.ca/cic/datasets/ids-2017.html) to build my model.
+</pre>
+
 ### Dependencies
 
 ### Dependencies
