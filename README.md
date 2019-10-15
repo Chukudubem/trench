@@ -1,7 +1,13 @@
-# Application-Level-Threat-Intel-System
+
 
 ![Trench](trench.png)
-Machine Learning for packet analytics of encrypted network traffic
+####Author: Dubem Nwoji
+### Machine Learning for Encrypted Network Packet Analysis
+
+### Introduction
+
+### Tools
+### Dependencies
 
 ### Dependencies
 #### Joy
