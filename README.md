@@ -79,8 +79,8 @@ To run offline:
     
     
 ### How Trench Works
-![Trenchscreen](trench_screenshot.png)
+![Trenchscreen](Trench_screenshot.png)
 
-       
+Trench takes as input, packet capture files
        
 
