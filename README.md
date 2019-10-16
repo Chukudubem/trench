@@ -82,7 +82,7 @@ To run offline:
 ![Trenchscreen](images/Trench_screenshot.png)
 
        
-![Trench Workflow](images/trench_workflow.png)
+![Trench Workflow](images/trench_workflow.PNG)
 Trench takes as input, packet capture files. These files are fed into Joy to extract JSON formatted features including TLS metadata, DNS, HTTP, Netflow, etc depending on the argument passed to "bin/joy ...".
 
 The JSON data is further parsed to extract TLS metadata information as input features to our model.
