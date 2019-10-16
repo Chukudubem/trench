@@ -72,10 +72,9 @@ I trained multiple packet capture files (about 20GB) sourced from [Canadian Inst
   
         sudo ./install_joy/install-sh
         
-To run offline:
+To run:
   
-    bin/joy [option] filename
-    e.g. bin/joy bidir=1 http=1 dns=1 tls=1 dist=1  data.pcap > data.json
+    <pre>./process-packet.sh</pre>
     
     
 ### How Trench Works
