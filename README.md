@@ -47,8 +47,8 @@ I trained multiple packet capture files (about 20GB) sourced from [Canadian Inst
 
 #### Joy
 [Joy](https://github.com/cisco/joy) is a BSD-licensed libpcap-based software package for extracting data features from live network traffic or packet capture (pcap) files, using a flow-oriented model similar to that of IPFIX or Netflow, and then representing these data features in JSON.
-- Link
-*Steps*
+
+#### Setting up Joy
 1. Install Joy dependencies:
 
        [sudo] apt-get update
@@ -76,6 +76,10 @@ To run offline:
   
     bin/joy [option] filename
     e.g. bin/joy bidir=1 http=1 dns=1 tls=1 dist=1  data.pcap > data.json
+    
+    
+### How Trench Works
+![Trenchscreen](trench_screenshot.png)
 
        
        
