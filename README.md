@@ -73,8 +73,7 @@ I trained multiple packet capture files (about 20GB) sourced from [Canadian Inst
         sudo ./install_joy/install-sh
         
 To run:
-  
-    <pre>./process-packet.sh</pre>
+## ./process-packet.sh
     
     
 ### How Trench Works
