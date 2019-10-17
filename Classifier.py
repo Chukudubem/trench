@@ -21,7 +21,7 @@ class LogisticRegressor:
             self.scaler = StandardScaler()
             X = self.scaler.fit_transform(X)
         
-        self.lr = LogisticRegression(penalty='l1')
+        self.lr = LogisticRegression(penalty='l1', class_weight= 'balanced')
         self.lr.fit(X,y)
         
     def test(self, X):
@@ -33,7 +33,6 @@ class LogisticRegressor:
     
     def get_params(self):
         return self.lr.coef_, self.lr.intercept_
-    
     
     def get_n_nonzero_params(self):
         c = 0 
