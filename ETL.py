@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 import os
+import csv
 from DataProcessor import DataProcessor as processor
 
 class ETL:
@@ -34,13 +35,8 @@ class ETL:
                         tmp_data.extend(tmpIPT[i])
                         tmp_data.extend(tmpPL[i])
                         tmp_data.extend(tmpMTD[i])
-
-
-                        # self.data.append(tmp_data)
-                        # self.labels.append(label)
                         tmp_data.append(label)
-                        import csv
+                        
                         with open('pos_neg_output.txt', 'a') as csvfile:
                             writer = csv.writer(csvfile, delimiter=",")
                             writer.writerow(tmp_data)
-        # return self.data, self.labels
