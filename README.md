@@ -33,7 +33,7 @@ This project was largely influenced by a <a href = "https://resources.sei.cmu.ed
 with Network Security background and a knack for seeking out "impossible" challenges (especially as it relates 
 to the excitingly blossoming field of security Machine Learning and Privacy Engineering), I was naturally drawn to this problem.
 
-I trained multiple packet capture files (about 20GB) sourced from [Canadian Institute of Cybersecurity, UNB](https://www.unb.ca/cic/datasets/ids-2017.html)    to build my model.
+I trained multiple packet capture files (about 20GB) sourced from <a href="(https://www.unb.ca/cic/datasets/ids-2017.html">Canadian Institute of Cybersecurity, UNB</a> to build my model.
 </pre>
 
 ### Dependencies
