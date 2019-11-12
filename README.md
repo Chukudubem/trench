@@ -3,7 +3,7 @@
 ![Trench](images/trench.png)
 <pre>Author: Dubem Nwoji</pre>
 # Machine Learning for Encrypted Network Packet Analysis
-
+[YouTube Video](https://www.youtube.com/watch?v=2N6nMvmkyic)
 ### Introduction
 <pre> 
 Over the years, well-meaning stakeholders have strived to build trust into the internetwork of 
@@ -78,6 +78,7 @@ To run:
     
 ### How Trench Works
 ![Trenchscreen](images/Trench_screenshot.png)
+
 
        
 ![Trench Workflow](images/trench_workflow.PNG)
