@@ -7,6 +7,9 @@ from ETL import ETL
 from Classifier import LogisticRegressor
 from DataProcessor import DataProcessor as processor
 
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import accuracy_score, classification_report, confusion_matrix
+
 #Pass argument to python script
 pos_file = sys.argv[1]
 neg_file = sys.argv[2]
